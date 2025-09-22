@@ -92,7 +92,7 @@ public class MovieRatingSystem {
                 System.out.println("Interesting choice!");
         }
       
-        String recommendation = genre.equalsIgnoreCase("sci-fi") ? "Interstellar" : "The Dark Knight";
+        String recommendation = genre.equalsIgnoreCase("sci-fi") ? "Interstellar" : "The Dark Knight" : "Avatar" : "The Substance" : "Sharknado" ;
         System.out.println("Movie recommendation: " + recommendation);
 
         scanner.close();
